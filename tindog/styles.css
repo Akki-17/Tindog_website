@@ -1,0 +1,156 @@
+#title {
+  background-color: #ff4c68;
+  color: aliceblue;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 15% 0%;
+}
+
+.container-fluid {
+  padding: 3.5% 15%;
+}
+
+.tindog-title {
+  font-family: "Ubuntu", sans-serif;
+
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.nav-item {
+  padding: 0 15px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.nav-button {
+  font: 6rem;
+}
+.title_img {
+  padding: 9% 0 0 0;
+}
+.btn-down {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone_img {
+  transform: rotate(10deg);
+  width: 80%;
+  margin: 3rem 4rem;
+  border-radius: 10%;
+  position: relative;
+
+  top: 170px;
+}
+#features {
+  padding: 15% 20%;
+  background-color: aliceblue;
+  position: relative;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.icon {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.feature1 {
+  text-align: center;
+  justify-content: center;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+h2 {
+  font-family: "Montserrat";
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pebbles {
+  font-family: "Helvetica";
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 5%;
+}
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press_img {
+  width: 5%;
+  margin: 3%;
+}
+.testimonial-img {
+  width: 20%;
+  border-radius: 18%;
+}
+
+.test1 {
+  margin: 5%;
+}
+
+.carousel-inner {
+  padding: 5% 20%;
+}
+
+#pricing {
+  padding: 10% 10% 5%;
+  text-align: center;
+}
+
+.card-header {
+  color: #1e1c1c;
+}
+.price-header {
+  color: #1e1c1c;
+}
+.card {
+  margin: 4%;
+}
+.pricing-price {
+  color: #808080;
+}
+
+@media (max-width: 1000px) {
+  .iphone_img {
+    transform: rotate(0);
+    position: static;
+  }
+  .title_img{
+    text-align: center;
+  }
+}
+
+.last-sec{
+  text-align: center;
+  
+}
+.last-text{
+color:#1e1c1c;
+padding-bottom: 4%;
+}
+
+.last-btn{
+  padding:0.6%;
+}
